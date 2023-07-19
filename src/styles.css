@@ -1,0 +1,74 @@
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: 2px solid black;
+    margin: 10px auto;
+    padding: 5px;
+    width: 800px;
+    height: 100vh;
+    box-sizing: border-box;
+}
+
+.container-2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.precio {
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+margin-top: 10px;
+margin-right: 20px;
+padding-right: 20px;
+}
+
+.cupon {
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ flex-direction: column;
+ margin-top: 10px;
+ margin-left: 20px;
+ padding-left: 20px;
+}
+
+.precio input, .cupon input {
+    margin-top: 10px;
+    border: 1px solid;
+    border-radius: 8px;
+    width: 80%;
+    height: 30px;
+}
+
+#price:focus, #cupon:focus {
+    border-color: aqua;
+    outline: none;
+    box-shadow: 0 0 0 2px aqua; 
+}
+
+.calc {
+    width: 20%;
+    height: 40px;
+    margin: 10px;
+    margin-top: 30px;
+    border: 1px solid;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.calc:hover {
+    background-color: aquamarine;
+    font-size: 15px;
+}
+
